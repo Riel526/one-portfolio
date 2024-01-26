@@ -8,15 +8,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: movieRental
+      src: movieRental,
+      demoHref: "",
+      codeHref: ""
     },
     {
       id: 2,
-      src: WeatherApp
+      src: WeatherApp,
+      demoHref: "https://dulcet-quokka-f27ab6.netlify.app/",
+      codeHref: "https://github.com/Riel526/WeatherApp"
     },
     {
       id: 3,
-      src: ADOSP
+      src: ADOSP,
+      demoHref: "",
+      codeHref: ""
     }
   ]
 
@@ -35,12 +41,12 @@ const Portfolio = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
         {
-          portfolios.map(({id, src})=>(
+          portfolios.map(({id, src, demoHref, codeHref})=>(
             <div key ={id} className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
             <div className='flex items-center justify-center'>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+              <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 cursor-pointer' href={demoHref} target="_blank" rel="noopener noreferrer">Demo</a>
+              <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 cursor-pointer' href={codeHref} target="_blank" rel="noopener noreferrer">Code</a>
             </div>
           </div>
           ))
