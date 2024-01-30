@@ -10,7 +10,7 @@ const Portfolio = () => {
       id: 1,
       src: movieRental,
       demoHref: "",
-      codeHref: ""
+      codeHref: "https://github.com/Riel526/movieRentalApp"
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Portfolio = () => {
       id: 3,
       src: ADOSP,
       demoHref: "",
-      codeHref: ""
+      codeHref: "https://github.com/Riel526/ADO.NET-SP"
     }
   ]
 
