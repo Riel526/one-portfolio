@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size ={30}/>
               </>
             ),
-            href:"/PADOLINA_Gabriel_Resume2023.pdf",
+            href:"/PADOLINA_Gabriel_Resume.pdf",
             style: 'rounded-tr-md',
             download: true
         }
