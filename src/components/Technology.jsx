@@ -8,6 +8,10 @@ import html from '../assets/html.png'
 import sql from '../assets/sql.png'
 import github from '../assets/github.png'
 import javascript from '../assets/javascript.png'
+import nodeJs from '../assets/nodeJs.png'
+import expressJs from '../assets/expressJs.png'
+import mongoDb from '../assets/mongoDb.png'
+
 
 
 
@@ -45,25 +49,43 @@ const Technology = () => {
             style: "shadow-violet-500"
         },
         {
+            id: 7,
+            src: nodeJs,
+            title: 'NodeJS',
+            style: "shadow-green-500"
+        },
+        {
+            id: 8,
+            src: expressJs,
+            title: "ExpressJS",
+            style: "shadow-gray-400"
+        },
+        {
+            id: 9,
+            src: mongoDb,
+            title: "mongoDb",
+            style: "shadow-green-400"
+        },
+        {
             id: 6,
             src: react,
             title: 'React',
             style: "shadow-blue-600"
         },
         {
-            id: 7,
+            id: 10,
             src: tailwind,
             title: 'Tailwind',
             style: "shadow-sky-400"
         },
         {
-            id: 8,
+            id: 11,
             src: sql,
             title: 'SQL',
             style: "shadow-blue-500"
         },
         {
-            id: 9,
+            id: 12,
             src: github,
             title: 'GitHub',
             style: "shadow-gray-400"
